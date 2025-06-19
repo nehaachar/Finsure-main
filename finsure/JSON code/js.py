@@ -18,7 +18,7 @@ df['transactionDate'] = pd.to_datetime(df['transactionDate']).dt.date
 conn = mysql.connector.connect(
     host='localhost',
     user='root',
-    password='Nithi18',
+    password='yourpassword',
     database='FinSure'
 )
 cursor = conn.cursor()
